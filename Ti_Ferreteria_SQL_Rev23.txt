@@ -1,0 +1,450 @@
+-------------------------------------------------CREACION DE BASE DE DATOS-----------------------------------------------------------
+CREATE DATABASE TI_FERRETERIAS
+GO
+
+USE TI_FERRETERIAS
+GO
+
+-------------------------------------------------CREACION DE TABLAS Y RELACIONES-----------------------------------------------------
+CREATE TABLE Provincias
+(
+Id_Provincia_Pr INT IDENTITY(1,1) NOT NULL,
+Descripcion_Provincia_Pr CHAR(20) NOT NULL UNIQUE,
+Estado_Provincia_Pr BIT NOT NULL DEFAULT 1
+
+CONSTRAINT PK_Provincias PRIMARY KEY (Id_Provincia_Pr) 
+)
+GO
+
+
+CREATE TABLE Tipo_Producto
+(
+Id_Tipo_Producto_T INT IDENTITY(1,1) NOT NULL,
+Descripcion_Tipo_Producto_T TEXT NOT NULL,
+Estado_Tipo_Producto_T BIT NOT NULL DEFAULT 1
+
+CONSTRAINT PK_Tipo_Producto PRIMARY KEY (Id_tipo_Producto_T)
+)
+GO
+
+CREATE TABLE Proveedores
+(
+Id_Proveedor_Prov INT IDENTITY(1,1) NOT NULL,
+CUIT_Proveedor_Prov CHAR(11) NOT NULL UNIQUE,
+Nombre_Proveedor_Prov CHAR(25) NOT NULL,
+Mail_Proveedor_Prov NCHAR(30) NOT NULL,
+Direccion_Proveedor_Prov TEXT NOT NULL,
+Ciudad_Proveedor_Prov CHAR(20) NOT NULL,
+Id_Provincia_Prov INT NOT NULL,
+Telefono_Proveedor_Prov NCHAR(15) NOT NULL,
+Estado_Proveedor_Prov BIT NOT NULL DEFAULT 1,
+
+CONSTRAINT PK_Proveedores PRIMARY KEY (Id_Proveedor_Prov),
+CONSTRAINT FK_Proveedores_Provincias FOREIGN KEY (Id_Provincia_Prov) REFERENCES Provincias(Id_Provincia_Pr)
+)
+GO
+
+CREATE TABLE Productos
+(
+Id_Producto_P INT IDENTITY(1,1) NOT NULL,
+Id_Proveedor_P INT NOT NULL,
+Descripcion_Producto_P TEXT NOT NULL,
+Precio_Unitario_P MONEY NOT NULL,
+Nombre_Producto_P CHAR(20) NOT NULL,
+Id_Tipo_Producto_P INT NOT NULL,
+Imagen_Producto_P TEXT NULL,
+Stock_Producto_P INT NOT NULL,
+Estado_P BIT NOT NULL DEFAULT 1,
+
+CONSTRAINT PK_Productos PRIMARY KEY (Id_Producto_P),
+CONSTRAINT FK_Productos_Tipo_Producto FOREIGN KEY (Id_Tipo_Producto_P) REFERENCES Tipo_Producto(Id_Tipo_Producto_T),
+CONSTRAINT FK_Productos_Proveedores FOREIGN KEY (Id_Proveedor_P) REFERENCES Proveedores(Id_Proveedor_Prov) 
+)
+GO
+
+CREATE TABLE Usuarios
+(
+Id_Usuario_U INT IDENTITY(1,1) NOT NULL,
+DNI_Usuario_U CHAR(8) NOT NULL UNIQUE,
+Telefono_Usuario_U NCHAR(15) NOT NULL,
+Nombre_Usuario_U CHAR(25) NOT NULL,
+Contraseña_Usuario_U CHAR(20) NOT NULL,
+Mail_Usuario_U NCHAR(30) NOT NULL,
+Direccion_Usuario_U TEXT NOT NULL,
+Ciudad_Usuario_U CHAR(20) NOT NULL,
+Id_Provincia_U INT NOT NULL,
+Estado_Usuario_U BIT NOT NULL DEFAULT 1,
+Admin_Usuario_U BIT NOT NULL DEFAULT 0,
+
+CONSTRAINT PK_Usuarios PRIMARY KEY (Id_Usuario_U),
+CONSTRAINT FK_Usuarios_Provincias FOREIGN KEY (Id_Provincia_U) REFERENCES Provincias(Id_Provincia_Pr)
+)
+GO
+
+CREATE TABLE Ventas
+(
+Num_Factura_V INT IDENTITY(1,1) NOT NULL,
+Id_Usuario_V INT NOT NULL,
+Fecha_V DATE NOT NULL,
+Monto_Total_V MONEY NOT NULL,
+
+CONSTRAINT PK_Ventas PRIMARY KEY (Num_Factura_V),
+CONSTRAINT FK_Ventas_Usuarios FOREIGN KEY (Id_Usuario_V) REFERENCES Usuarios(Id_Usuario_U)
+)
+GO
+
+CREATE TABLE Detalle_De_Venta
+(
+Num_Factura_DV INT NOT NULL,
+Id_Producto_DV INT NOT NULL,
+Precio_Unitario_DV MONEY NOT NULL,
+Cantidad_DV INT NOT NULL,
+
+CONSTRAINT PK_Detalle_De_Venta PRIMARY KEY (Num_Factura_DV,Id_Producto_DV),
+CONSTRAINT FK_Detalle_De_Venta_Venta FOREIGN KEY (Num_Factura_DV) REFERENCES Ventas(Num_Factura_V),
+CONSTRAINT FK_Detalle_De_Venta_Productos FOREIGN KEY (Id_Producto_DV) REFERENCES Productos(Id_Producto_P)
+)
+GO
+-------------------------------------------------CREACION TRIGGER-----------------------------------------------------
+
+CREATE TRIGGER TR_STOCK
+ON Detalle_De_Venta AFTER UPDATE,INSERT 
+AS
+BEGIN
+SET NOCOUNT ON
+  UPDATE Productos set Stock_Producto_P = Stock_Producto_P - (SELECT Cantidad_DV FROM inserted)
+  WHERE Id_Producto_P = (SELECT Id_Producto_DV FROM inserted)
+END
+GO
+
+CREATE TRIGGER TR_TOTALFACTURA
+ON Detalle_De_Venta AFTER UPDATE,INSERT 
+AS
+BEGIN
+SET NOCOUNT ON
+  UPDATE Ventas set Monto_Total_V = Monto_Total_V + (SELECT Cantidad_DV * Precio_Unitario_DV FROM inserted)
+  WHERE Num_Factura_V = (SELECT Num_Factura_DV FROM inserted)
+END 
+GO
+
+-------------------------------------------------CARGA DE DATOS EN LAS TABLAS-----------------------------------------------------
+
+INSERT INTO Provincias (Descripcion_Provincia_Pr)
+Select 'Buenos Aires' UNION
+Select 'Chaco' UNION
+Select 'Cordoba' UNION
+Select 'Corrientes' UNION
+Select 'Entre Rios' UNION
+Select 'Jujuy' UNION
+Select 'Mendoza' UNION
+Select 'Misiones' UNION
+Select 'Neuquen' UNION
+Select 'Salta' UNION
+Select 'San Juan' UNION
+Select 'Santa Cruz' UNION
+Select 'Santa Fe' UNION
+Select 'Santiago del Estero' UNION
+Select 'Tucuman' 
+GO
+
+INSERT INTO Tipo_Producto(Descripcion_Tipo_Producto_T)
+Select 'Baño' UNION
+Select 'Calzado profesional' UNION
+Select 'Cerraduras' UNION
+Select 'Cintas' UNION
+Select 'Cocina' UNION
+Select 'Construccion' UNION
+Select 'Decoracion' UNION
+Select 'Electricidad' UNION
+Select 'Ferreteria' UNION
+Select 'Herramientas' UNION
+Select 'Jardin' UNION
+Select 'Madera' UNION
+Select 'Muebles' UNION
+Select 'Pintura' UNION
+Select 'Plomeria'
+GO
+
+INSERT INTO Proveedores(CUIT_Proveedor_Prov,Nombre_Proveedor_Prov, Mail_Proveedor_Prov, Direccion_Proveedor_Prov, Ciudad_Proveedor_Prov, Id_Provincia_Prov, Telefono_Proveedor_Prov, Estado_Proveedor_Prov)
+Select '12345678920' , 'Jeluz', 'Jeluz@Jeluz.com', 'Estrada 1234', 'La Banda', 3,'0303456', 1 UNION
+Select '19345678929' , 'Stanley', 'Stanley@Stanley.com', 'Mitre 1111', 'Escobar', 2,'6666456', 1 UNION
+Select '18345678928' , 'Fischer', 'Fischer@Fischer.com', 'Belgrano 2222', 'Tigre', 4,'7878886', 1 UNION
+Select '17345678927' , '3M', '3M@3M.com', 'Maradona 3333', 'Pilar', 1,'1303476', 1 UNION
+Select '16345678926' , 'Venier', 'Venier@Venier.com', 'Jujuy 4444', 'Campana', 3,'2303466', 1 UNION
+Select '13345678925' , 'Bahco', 'Bahco@Bahco.com', 'Independencia 5555', 'Rio Tercero', 4,'3303406', 1 UNION
+Select '15345678924' , 'Weber', 'Weber@Weber.com', 'Peru 6666', 'Godoy Cruz', 6,'4303416', 1 UNION
+Select '14345678923' , 'Ferrum', 'Ferrum@Ferrum.com', '25 de Mayo 8888', 'Villa Rosa', 5,'5303426', 1 UNION
+Select '20748391639' , 'Caterpiller', 'Caterpiller@gmail.com', 'Anchorena 1564', 'Caba', 1,'9846372',1 UNION
+Select '20938463719' , 'BlackDecker', 'BlackDecker@gmail.com', 'Lugones 782', 'Caba', 1, '2349182', 1 UNION
+Select '20637849329' , 'Pentagono' , 'Pentagono@gmail.com' , 'Tramontana 982', 'Peperillo', 8, '943728', 1 UNION
+Select '20346574839' , 'Moralis' , 'Moralis@gmail.com' , 'Esrido 2222', 'Fratello', 12, '1122773', 1 UNION
+Select '20773394789' , 'Corredo' , 'Corredo@gmail.com' , 'Frite 9999' , 'Western', 7, '8935267', 1 UNION
+Select '20773794782' , 'Meijide' , 'Meijide@gmail.com' , 'Slarte 8739' , 'Libern', 9, '1935247', 1 UNION
+Select '20773594784' , 'Deart' , 'Deart@gmail.com' , 'Lampinquen 3465' , 'Retallo', 10, '2936267', 1 
+
+GO
+
+INSERT INTO Productos(Id_Proveedor_P,Descripcion_Producto_P,Precio_Unitario_P,Nombre_Producto_P,Id_Tipo_Producto_P,Imagen_Producto_P,Stock_Producto_P,Estado_P)
+Select 6,'Tornillo cabeza plana',0.5,'Tornillo',9,'~/Imagen/TornilloCabezaPlana.png',100,1 UNION
+Select 2,'Destornillador estrella',50,'Destornillador',10,'~/Imagen/Destornillador.png',4,1 UNION
+Select 5,'Pintura de interior 4L',9000,'Pintura',14,'~/Imagen/PinturaInterior.jpg',20,1 UNION
+Select 4,'Cuchillo tramontana',35,'Cuchillo',5,'~/Imagen/CuchilloTramontana.png',350,1 UNION
+Select 5,'Lampara tiffany de mesa',4000,'Lampara',7,'~/Imagen/LamparaTiffany.png',120,1 UNION
+Select 1,'Bombilla phillips',600,'Bombilla',8,'~/Imagen/BombillaPhillips.png',200,1 UNION
+Select 7,'Bacha cocina de acero inoxidable',2000,'Bacha',5,'~/Imagen/BachaCocina.png',38,1 UNION
+Select 3,'Membrana líquida acrílica fibrada aquaflex',4500,'Membrana liqida',6,'~/Imagen/MembranaLiquida.png',45,1 UNION
+Select 7,'Lonja madera de pino',3000,'Madera',12,'~/Imagen/LonjaMaderaDePino.png',60,1 UNION
+Select 8,'Inodoro ferrum',12000,'Inodoro',1,'~/Imagen/InodoroFerrum.png',12,1 UNION
+Select 2,'Maseta de plastico',200,'Maseta',11,'~/Imagen/MasetaPlastica.png',400,1 UNION
+Select 5,'Pintura de exterior 4L',9600,'Pintura',14,'~/Imagen/PinturaExterior.jpg',30,1 UNION
+Select 1,'Interruptor platinum',1000,'Interruptor',8,'~/Imagen/Interruptor.png',60,1 UNION
+Select 2,'Llave combinada metrica con acabado cromado',4300,'Llave',10,'~/Imagen/LlaveCombinada.png',50,1 UNION
+Select 8,'Bidet ceramico',10000,'Bidet',1,'~/Imagen/Bidet.jpg',23,1
+GO
+
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '55444666','1133221166','alexelcapo','alex123','alexelcapo@gmail.com','BELGRANO 2972','TRENQUE LAUQUEN',15,1,1
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '45444676','1146241166','axel','axel123','axel@gmail.com','ACCESO OESTE KM 38,900 ','LA REJA',1,1,0
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '39464776','1138574261','Darop','Dario123','Dario@gmail.com','Corrientes 1441','Vicente Lopez',1,1,0
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '35444676','1176241166','Pedro','pedro123','Pedro@gmail.com','SANTA CATALINA 95 ','PALPALÁ ',6,1,0
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '25444676','1165421166','Fernanda','Fernanda123','Fernanda@gmail.com','RUTA NACIONAL N° 11 KM. 1005,7 ','RESISTENCIA ',2,1,0
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '15654676','1176241166','Josefina','josefina123','josefina@gmail.com','COL. AUT CBA-ROSARIO KM 562 ','VILLA MARÍA',3,1,0
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '57645676','1134541186','Cristian','cristian123','Cristian@gmail.com','AV. TAVELLA 2740','SALTA',10,1,0
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '38444676','1654241176','Laura','laura123','Laura@gmail.com','AV. DE CIRCUNVALACIÓN N° 1245 BIS','ROSARIO',13,1,0
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '42356274','1189364722','Felipe','Felipe123','Felipe@gmail.com','AV. SANTA FE N° 666','CABA',1,0,1
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '43556829','1185037299','Marcos','Marcos123','Marcos@gmail.com','AV. LINCOLN N° 9853','ROSARIO',13,0,1
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '40228954','1123415377','Marta','Marta123','Marta@gmail.com','AV. WEBER N° 526','CORDOBA CENTRAL',2,1,1
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '38991284','1198263743','Esteban','Esteban123','Esteban@gmail.com','AV. MURILLO N° 9999','SOLARES',3,1,1
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '34628594','1190036488','Josefa','Josefa123','Josefa@gmail.com','ESTERES 23','LARAPILLA',4,1,0
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '39227584','1133442277','Ricardo','Ricardo123','Ricardo@gmail.com','AV. LOS LAGOS 4391','TIGRE',1,1,0
+INSERT INTO Usuarios (DNI_Usuario_U,Telefono_Usuario_U,Nombre_Usuario_U,Contraseña_Usuario_U,Mail_Usuario_U,Direccion_Usuario_U,Ciudad_Usuario_U,Id_Provincia_U,Estado_Usuario_U,Admin_Usuario_U)
+Select '33884934','1120956378','Luis','Luis123','Luis@gmail.com','AV. TIERREZ 684','CEBALLOS',7,1,0
+GO
+
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 1,'2022-06-28','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 2,'2021-06-28','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 3,'2020-06-28','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 4,'2019-06-28','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 5,'2018-06-28','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 5,'2022-06-28','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 6,'2019-06-28','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 7,'2019-08-28','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 8,'2018-04-22','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 6,'2017-02-17','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 7,'2020-02-10','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 8,'2019-03-11','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 1,'2021-08-22','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 2,'2022-09-12','0'
+INSERT INTO Ventas(Id_Usuario_V,Fecha_V,Monto_Total_V)
+Select 3,'2021-05-09','0'
+GO
+
+
+
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 1,1,'0,5000','50'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 1,2,'50','3'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 2,2,'50','7'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 2,3,'9000','1'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 2,4,'35','4'
+GO
+
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 3,7,'2000','1'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 3,6,'600','10'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 3,3,'9000','1'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 4,7,'2000','2'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 4,8,'4500','1'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 5,7,'2000','1'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 6,3,'2000','1'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 7,3,'2000','1'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 8,4,'2000','1'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 9,6,'600','10'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 10,3,'9000','1'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 11,2,'6500','2'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 12,8,'600','1'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 13,3,'3000','4'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 14,7,'21000','1'
+GO
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+Select 15,6,'9000','2'
+GO
+--------------------------------PROCEDIMIENTOS ALMACENADOS PROVEEDORES----------------------------------------------------------
+
+CREATE PROCEDURE SP_ActualizarProveedor
+(
+@ID_PROVEEDOR_PROV INT,
+@CUIT_PROVEEDOR_PROV CHAR(11),
+@NOMBRE_PROVEEDOR_PROV VARCHAR(25),
+@MAIL_PROVEEDOR_PROV VARCHAR(25),
+@DIRECCION_PROVEEDOR_PROV VARCHAR(30),
+@CIUDAD_PROVEEDOR_PROV VARCHAR(20),
+@ID_PROVINCIA_PROV INT,
+@TELEFONO_PROVEEDOR_PROV VARCHAR(15),
+@ESTADO_PROVEEDOR_PROV BIT
+)
+AS
+UPDATE Proveedores
+SET
+CUIT_Proveedor_Prov = @CUIT_PROVEEDOR_PROV,
+Nombre_Proveedor_Prov = @NOMBRE_PROVEEDOR_PROV,
+Mail_Proveedor_Prov = @MAIL_PROVEEDOR_PROV,
+Direccion_Proveedor_Prov = @DIRECCION_PROVEEDOR_PROV,
+Ciudad_Proveedor_Prov = @CIUDAD_PROVEEDOR_PROV,
+Id_Provincia_Prov = @ID_PROVINCIA_PROV,
+Telefono_Proveedor_Prov = @TELEFONO_PROVEEDOR_PROV,
+Estado_Proveedor_Prov = @ESTADO_PROVEEDOR_PROV
+WHERE Id_Proveedor_Prov = @ID_PROVEEDOR_PROV
+RETURN
+GO
+
+CREATE PROCEDURE SP_EliminarProveedor
+(
+@ID_PROVEEDOR_PROV INT
+)
+AS
+DELETE FROM Proveedores
+WHERE Id_Proveedor_Prov = @ID_PROVEEDOR_PROV
+RETURN 
+GO
+----------------------------------------PROCEDIMIENTOS ALMACENADOS PROVINCIAS----------------------------------------------
+CREATE PROCEDURE SP_EliminarProvincia
+(
+@ID_PROVINCIA_PR INT
+)
+AS
+DELETE FROM Provincias
+WHERE Id_Provincia_Pr = @ID_PROVINCIA_PR
+RETURN 
+GO
+CREATE PROCEDURE SP_ActualizarProvincia
+(
+@ID_PROVINCIA_PR INT,
+@DESCRIPCION_PROVINCIA_PR CHAR(20),
+@Estado_Provincia_Pr BIT
+)
+AS
+UPDATE Provincias
+SET
+Descripcion_Provincia_Pr = @DESCRIPCION_PROVINCIA_PR,
+Estado_Provincia_Pr = @Estado_Provincia_Pr
+WHERE Id_Provincia_Pr = @ID_PROVINCIA_PR
+RETURN
+GO
+----------------------------------------------PROCEDIMIENTOS ALMACENADOS TIPO DE PRODUCTO-------------------------
+CREATE PROCEDURE SP_EliminarTipoDePoducto
+(
+@ID_TIPO_PRODUCTO_T INT
+)
+AS
+DELETE FROM Tipo_Producto
+WHERE Id_Tipo_Producto_T=@ID_TIPO_PRODUCTO_T
+RETURN
+GO
+CREATE PROCEDURE SP_ActualizarTipoDeProducto
+(
+@ID_TIPO_PRODUCTO_T INT,
+@DESCRIPCION_TIPO_PRODUCTO_T TEXT,
+@Estado_Tipo_Producto_T BIT
+)
+AS
+UPDATE Tipo_Producto
+SET
+Descripcion_Tipo_Producto_T = @DESCRIPCION_TIPO_PRODUCTO_T,
+Estado_Tipo_Producto_T = @Estado_Tipo_Producto_T
+WHERE Id_Tipo_Producto_T = @ID_TIPO_PRODUCTO_T
+RETURN
+GO
+----------------------------------------------PROCEDIMIENTOS ALMACENADOS VENTAS-------------------------
+
+CREATE PROCEDURE SP_agregarVentas
+(
+@ID_USUARIO_V INT,
+@MONTO MONEY
+)
+AS
+BEGIN
+INSERT INTO Ventas (Id_Usuario_V,Fecha_V,Monto_Total_V)
+SELECT @ID_USUARIO_V, GETDATE(), @MONTO
+END
+GO
+
+----------------------------------------------PROCEDIMIENTOS ALMACENADOS DETALLE DE VENTAS-------------------------
+
+
+CREATE PROCEDURE SP_agregarDetalleDeVentas
+(
+@Num_Fac INT,
+@Id_Prod INT,
+@Precio_Unit MONEY,
+@Cantidad INT
+)
+AS
+BEGIN
+INSERT INTO Detalle_De_Venta(Num_Factura_DV,Id_Producto_DV,Precio_Unitario_DV,Cantidad_DV)
+SELECT @Num_Fac,@Id_Prod,@Precio_Unit,@Cantidad
+END
+GO

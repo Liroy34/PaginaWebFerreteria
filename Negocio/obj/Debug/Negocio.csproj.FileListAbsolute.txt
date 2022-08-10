@@ -1,0 +1,308 @@
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Negocio\bin\Debug\Negocio.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Negocio\bin\Debug\Negocio.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Negocio\bin\Debug\Dao.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Negocio\bin\Debug\Entidades.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Negocio\bin\Debug\Dao.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Negocio\bin\Debug\Entidades.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Negocio\obj\Debug\Negocio.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Negocio\obj\Debug\Negocio.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Negocio.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Negocio.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Dao.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Entidades.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Dao.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Entidades.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\obj\Debug\Negocio.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\obj\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Dao.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Dao.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\obj\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Negocio\obj\Debug\Negocio.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1\Negocio\bin\Debug\Negocio.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1\Negocio\bin\Debug\Negocio.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1\Negocio\bin\Debug\Dao.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1\Negocio\bin\Debug\Entidades.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1\Negocio\bin\Debug\Dao.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1\Negocio\bin\Debug\Entidades.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1\Negocio\obj\Debug\Negocio.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1\Negocio\obj\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1\Negocio\bin\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1\Negocio\bin\Debug\Dao.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1\Negocio\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1\Negocio\bin\Debug\Dao.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1\Negocio\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\gabri\Desktop\TIF_Grupo_1\Negocio\obj\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1\Negocio\obj\Debug\Negocio.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Negocio\bin\Debug\Negocio.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Negocio\bin\Debug\Negocio.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Negocio\bin\Debug\Dao.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Negocio\bin\Debug\Entidades.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Negocio\bin\Debug\Dao.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Negocio\bin\Debug\Entidades.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Negocio\obj\Debug\Negocio.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev11\TIF_Grupo_1_rev11\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev11\TIF_Grupo_1_rev11\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev11\TIF_Grupo_1_rev11\Negocio\bin\Debug\Dao.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev11\TIF_Grupo_1_rev11\Negocio\bin\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev11\TIF_Grupo_1_rev11\Negocio\bin\Debug\Dao.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev11\TIF_Grupo_1_rev11\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev11\TIF_Grupo_1_rev11\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev11\TIF_Grupo_1_rev11\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev11\TIF_Grupo_1_rev11\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev11\TIF_Grupo_1_rev11\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev11\TIF_Grupo_1_rev11\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Negocio\bin\Debug\Dao.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Negocio\bin\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Negocio\bin\Debug\Dao.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Negocio\obj\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev13\Negocio\bin\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev13\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev13\Negocio\bin\Debug\Dao.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev13\Negocio\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev13\Negocio\bin\Debug\Dao.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev13\Negocio\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev13\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev13\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev13\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev13\Negocio\obj\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev13\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Dao.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Dao.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\obj\Debug\Negocio.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev18\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Negocio.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev18\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Negocio.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev18\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Dao.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev18\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Entidades.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev18\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Dao.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev18\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\bin\Debug\Entidades.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev18\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev18\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev18\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev18\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\obj\Debug\Negocio.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev18\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Negocio\obj\Debug\Negocio.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Negocio\bin\Debug\Negocio.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Negocio\bin\Debug\Negocio.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Negocio\bin\Debug\Dao.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Negocio\bin\Debug\Entidades.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Negocio\bin\Debug\Dao.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Negocio\bin\Debug\Entidades.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Negocio\obj\Debug\Negocio.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Dao.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Dao.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\obj\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Dao.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Dao.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\obj\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev20\TIF_Grupo_1_rev20\Negocio\obj\Debug\Negocio.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev21\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev21\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev21\Negocio\obj\Debug\Negocio.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev21\Negocio\obj\Debug\Negocio.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev21\Negocio\bin\Debug\Negocio.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev21\Negocio\bin\Debug\Negocio.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev21\Negocio\bin\Debug\Dao.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev21\Negocio\bin\Debug\Entidades.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev21\Negocio\bin\Debug\Dao.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev21\Negocio\bin\Debug\Entidades.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev21\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Negocio\bin\Debug\Dao.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Negocio\bin\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Negocio\bin\Debug\Dao.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Negocio\obj\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Negocio\obj\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Negocio\bin\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Negocio\bin\Debug\Dao.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Negocio\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Negocio\bin\Debug\Dao.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Negocio\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev27\TIF_Grupo_1_rev27\Negocio\bin\Debug\Negocio.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev27\TIF_Grupo_1_rev27\Negocio\bin\Debug\Negocio.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev27\TIF_Grupo_1_rev27\Negocio\bin\Debug\Dao.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev27\TIF_Grupo_1_rev27\Negocio\bin\Debug\Entidades.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev27\TIF_Grupo_1_rev27\Negocio\bin\Debug\Dao.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev27\TIF_Grupo_1_rev27\Negocio\bin\Debug\Entidades.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev27\TIF_Grupo_1_rev27\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev27\TIF_Grupo_1_rev27\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev27\TIF_Grupo_1_rev27\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev27\TIF_Grupo_1_rev27\Negocio\obj\Debug\Negocio.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_GRUPO_1_VERSIONES\rev27\TIF_Grupo_1_rev27\Negocio\obj\Debug\Negocio.pdb
+D:\Usuarios\Juli0\Julio\facultad\PROG 3\TIF_Grupo_1_rev28\Negocio\bin\Debug\Negocio.dll
+D:\Usuarios\Juli0\Julio\facultad\PROG 3\TIF_Grupo_1_rev28\Negocio\bin\Debug\Negocio.pdb
+D:\Usuarios\Juli0\Julio\facultad\PROG 3\TIF_Grupo_1_rev28\Negocio\bin\Debug\Dao.dll
+D:\Usuarios\Juli0\Julio\facultad\PROG 3\TIF_Grupo_1_rev28\Negocio\bin\Debug\Entidades.dll
+D:\Usuarios\Juli0\Julio\facultad\PROG 3\TIF_Grupo_1_rev28\Negocio\bin\Debug\Dao.pdb
+D:\Usuarios\Juli0\Julio\facultad\PROG 3\TIF_Grupo_1_rev28\Negocio\bin\Debug\Entidades.pdb
+D:\Usuarios\Juli0\Julio\facultad\PROG 3\TIF_Grupo_1_rev28\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\Usuarios\Juli0\Julio\facultad\PROG 3\TIF_Grupo_1_rev28\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Usuarios\Juli0\Julio\facultad\PROG 3\TIF_Grupo_1_rev28\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\Usuarios\Juli0\Julio\facultad\PROG 3\TIF_Grupo_1_rev28\Negocio\obj\Debug\Negocio.dll
+D:\Usuarios\Juli0\Julio\facultad\PROG 3\TIF_Grupo_1_rev28\Negocio\obj\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev28\Negocio\bin\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev28\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev28\Negocio\bin\Debug\Dao.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev28\Negocio\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev28\Negocio\bin\Debug\Dao.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev28\Negocio\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev28\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev28\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev28\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev28\Negocio\obj\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev28\Negocio\obj\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev30\Negocio\bin\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev30\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev30\Negocio\bin\Debug\Dao.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev30\Negocio\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev30\Negocio\bin\Debug\Dao.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev30\Negocio\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev30\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev30\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev30\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev30\Negocio\obj\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev30\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Dao.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Dao.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev35\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Negocio.dll
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev35\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev35\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Dao.dll
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev35\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Entidades.dll
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev35\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Dao.pdb
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev35\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev35\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev35\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev35\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev35\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\obj\Debug\Negocio.dll
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev35\TIF_Grupo_1_rev32\TIF_Grupo_1_rev32\Negocio\obj\Debug\Negocio.pdb
+D:\TUP - JULIAN\3er cuatrimestre\00 - Programación 3\TIF\TIF_Grupo_1_rev37\Negocio\bin\Debug\Negocio.dll
+D:\TUP - JULIAN\3er cuatrimestre\00 - Programación 3\TIF\TIF_Grupo_1_rev37\Negocio\bin\Debug\Negocio.pdb
+D:\TUP - JULIAN\3er cuatrimestre\00 - Programación 3\TIF\TIF_Grupo_1_rev37\Negocio\bin\Debug\Dao.dll
+D:\TUP - JULIAN\3er cuatrimestre\00 - Programación 3\TIF\TIF_Grupo_1_rev37\Negocio\bin\Debug\Entidades.dll
+D:\TUP - JULIAN\3er cuatrimestre\00 - Programación 3\TIF\TIF_Grupo_1_rev37\Negocio\bin\Debug\Dao.pdb
+D:\TUP - JULIAN\3er cuatrimestre\00 - Programación 3\TIF\TIF_Grupo_1_rev37\Negocio\bin\Debug\Entidades.pdb
+D:\TUP - JULIAN\3er cuatrimestre\00 - Programación 3\TIF\TIF_Grupo_1_rev37\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\TUP - JULIAN\3er cuatrimestre\00 - Programación 3\TIF\TIF_Grupo_1_rev37\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\TUP - JULIAN\3er cuatrimestre\00 - Programación 3\TIF\TIF_Grupo_1_rev37\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\TUP - JULIAN\3er cuatrimestre\00 - Programación 3\TIF\TIF_Grupo_1_rev37\Negocio\obj\Debug\Negocio.dll
+D:\TUP - JULIAN\3er cuatrimestre\00 - Programación 3\TIF\TIF_Grupo_1_rev37\Negocio\obj\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Negocio\bin\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Negocio\bin\Debug\Dao.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Negocio\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Negocio\bin\Debug\Dao.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Negocio\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Negocio\obj\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev39\TIF_Grupo_1_rev39\Negocio\bin\Debug\Negocio.dll
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev39\TIF_Grupo_1_rev39\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev39\TIF_Grupo_1_rev39\Negocio\bin\Debug\Dao.dll
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev39\TIF_Grupo_1_rev39\Negocio\bin\Debug\Entidades.dll
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev39\TIF_Grupo_1_rev39\Negocio\bin\Debug\Dao.pdb
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev39\TIF_Grupo_1_rev39\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev39\TIF_Grupo_1_rev39\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev39\TIF_Grupo_1_rev39\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev39\TIF_Grupo_1_rev39\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev39\TIF_Grupo_1_rev39\Negocio\obj\Debug\Negocio.dll
+C:\Users\Julian\Desktop\TIF_Grupo_1_rev39\TIF_Grupo_1_rev39\Negocio\obj\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Negocio\bin\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Negocio\bin\Debug\Dao.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Negocio\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Negocio\bin\Debug\Dao.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Negocio\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Negocio\obj\Debug\Negocio.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Negocio\obj\Debug\Negocio.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev41\Negocio\bin\Debug\Negocio.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev41\Negocio\bin\Debug\Negocio.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev41\Negocio\bin\Debug\Dao.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev41\Negocio\bin\Debug\Entidades.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev41\Negocio\bin\Debug\Dao.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev41\Negocio\bin\Debug\Entidades.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev41\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev41\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev41\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev41\Negocio\obj\Debug\Negocio.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev41\Negocio\obj\Debug\Negocio.pdb

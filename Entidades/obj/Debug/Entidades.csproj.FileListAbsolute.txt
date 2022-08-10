@@ -1,0 +1,66 @@
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Entidades\bin\Debug\Entidades.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Entidades\bin\Debug\Entidades.pdb
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Entidades\obj\Debug\Entidades.dll
+D:\Documentos\CAPACITACION\FACULTAD\TSP\Tercer cuatrimestre\Prog3\TP Final\TIF_Grupo_1_rev04\TIF_Grupo_1\Entidades\obj\Debug\Entidades.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\bin\Debug\Entidades.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\obj\Debug\Entidades.dll
+C:\Users\joaqu\OneDrive\Escritorio\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\obj\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\obj\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev05\TIF_Grupo_1_rev05\TIF_Grupo_1\Entidades\obj\Debug\Entidades.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Entidades\bin\Debug\Entidades.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Entidades\bin\Debug\Entidades.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Entidades\obj\Debug\Entidades.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev10\TIF_Grupo_1_rev10\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Entidades\bin\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Entidades\obj\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev14\TIF_Grupo_1_rev13\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Entidades\bin\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Entidades\obj\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev17\TIF_Grupo_1_rev17\Entidades\obj\Debug\Entidades.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Entidades\bin\Debug\Entidades.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Entidades\bin\Debug\Entidades.pdb
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Entidades\obj\Debug\Entidades.dll
+E:\Facu\TUP\01 - Tercer Cuatrimestre\00 - Prog 3\TIF_Grupo_1_rev19\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Entidades\bin\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Entidades\obj\Debug\Entidades.dll
+C:\Users\Marcelo Bonet\Downloads\TIF_Grupo_1_rev22\TIF_Grupo_1_rev22\Entidades\obj\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Entidades\obj\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Entidades\obj\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Entidades\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev24\Entidades\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Entidades\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Entidades\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Entidades\obj\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev38\Entidades\obj\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Entidades\bin\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Entidades\bin\Debug\Entidades.pdb
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Entidades\obj\Debug\Entidades.dll
+C:\Users\gabri\Desktop\TIF_Grupo_1_rev41\Entidades\obj\Debug\Entidades.pdb
